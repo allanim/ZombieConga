@@ -20,7 +20,7 @@
 		9DE3F9ED22A5E534006B10A2 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DE3F9E822A5E534006B10A2 /* lose.wav */; };
 		9DE3F9EE22A5E534006B10A2 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DE3F9E922A5E534006B10A2 /* win.wav */; };
 		9DE3F9EF22A5E534006B10A2 /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DE3F9EA22A5E534006B10A2 /* hitCat.wav */; };
-		9DE9662E22A74B0100C79DC1 /* GLIMSTIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9662D22A74B0100C79DC1 /* GLIMSTIC.TTF */; };
+		9DE9663022A74F2B00C79DC1 /* GLIMSTIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9DE9662F22A74F2B00C79DC1 /* GLIMSTIC.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		9DE3F9E822A5E534006B10A2 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
 		9DE3F9E922A5E534006B10A2 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		9DE3F9EA22A5E534006B10A2 /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
-		9DE9662D22A74B0100C79DC1 /* GLIMSTIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GLIMSTIC.TTF; sourceTree = "<group>"; };
+		9DE9662F22A74F2B00C79DC1 /* GLIMSTIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GLIMSTIC.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		9DBA9148229DF89B00DDC79A /* ZombieConga */ = {
 			isa = PBXGroup;
 			children = (
-				9DE9662C22A74AEC00C79DC1 /* Fonts */,
+				9DE9662F22A74F2B00C79DC1 /* GLIMSTIC.TTF */,
 				9DE3F9E522A5E51F006B10A2 /* Sounds */,
 				9DBA9149229DF89B00DDC79A /* AppDelegate.swift */,
 				9DBA914F229DF89B00DDC79A /* GameScene.swift */,
@@ -97,14 +97,6 @@
 				9DE3F9E922A5E534006B10A2 /* win.wav */,
 			);
 			path = Sounds;
-			sourceTree = "<group>";
-		};
-		9DE9662C22A74AEC00C79DC1 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				9DE9662D22A74B0100C79DC1 /* GLIMSTIC.TTF */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE9662E22A74B0100C79DC1 /* GLIMSTIC.TTF in Resources */,
+				9DE9663022A74F2B00C79DC1 /* GLIMSTIC.TTF in Resources */,
 				9DE3F9EE22A5E534006B10A2 /* win.wav in Resources */,
 				9DBA9155229DF89B00DDC79A /* Main.storyboard in Resources */,
 				9DBA9157229DF89D00DDC79A /* Assets.xcassets in Resources */,

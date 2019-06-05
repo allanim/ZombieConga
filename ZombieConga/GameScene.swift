@@ -44,7 +44,7 @@ class GameScene: SKScene {
             height: playableRect.height)
     }
     
-    let livesLabel = SKLabelNode(fontNamed: "Chalkduster")
+    let livesLabel = SKLabelNode(fontNamed: "GLIMSTIC")
     
     // Playable
     let playableRect: CGRect
@@ -149,7 +149,8 @@ class GameScene: SKScene {
         }
         
         // label
-        livesLabel.text = "Lives: X"
+//        livesLabel.text = "Lives: X"
+        livesLabel.text = "Lives: \(lives)"
         livesLabel.fontColor = SKColor.black
         livesLabel.fontSize = 100
         livesLabel.zPosition = 150
